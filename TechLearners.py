@@ -4,6 +4,7 @@ class TechLearnersAndMentors
 	availableTime = 90;
 	currentStacks = []
 
+
 	def addStacks(expertise):
 		currentStacks.append(expertise)
 
@@ -15,8 +16,17 @@ class TechLearnersAndMentors
 
 
 
-	def getMentor(stack, time ):
+	def getMentor(reqdStack, availableTime ):
 		#content
+		for stack in currentStacks:
+			if self.stack == reqdStack:
+				if availableTime > 0:
+					return self
+					break
+		return null
+
+		
+
 
 
 

@@ -19,13 +19,13 @@ class TechLearnersAndMentors
 	def getMentor(reqdStack, availableTime ):
 		#content
 		for stack in currentStacks:
-			if self.stack == reqdStack:
+			if stack == reqdStack:
 				if availableTime > 0:
 					return self
 					break
 		return null
 
-		
+
 
 
 
